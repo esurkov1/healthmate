@@ -1,0 +1,49 @@
+{
+  "name": "healthmate",
+  "version": "1.0.0",
+  "description": "Универсальная библиотека для health check'ов микросервисов с единым форматом ответа",
+  "main": "index.js",
+  "keywords": [
+    "health-check",
+    "microservices",
+    "monitoring",
+    "nodejs",
+    "fastify",
+    "express",
+    "kubernetes",
+    "readiness",
+    "liveness"
+  ],
+  "author": {
+    "name": "Eugene Surkov",
+    "url": "https://github.com/esurkov1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esurkov1/healthmate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/esurkov1/healthmate/issues"
+  },
+  "homepage": "https://github.com/esurkov1/healthmate#readme",
+  "scripts": {
+    "test": "echo 'No tests configured'",
+    "example": "echo 'No example configured'",
+    "lint": "echo 'No linting configured'",
+    "prepublishOnly": "echo 'Ready to publish'"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
